@@ -66,7 +66,7 @@ export default function Contact() {
                                 <dt className="sr-only">Postal address</dt>
                                 <dd>
                                     <p>We are located in:</p>
-                                    <p>New York, NY 11201</p>
+                                    <p>New York, NY</p>
                                 </dd>
                             </div>
                             <div className="mt-3">
@@ -146,7 +146,6 @@ export default function Contact() {
                                     rows={4}
                                     className="block w-full rounded-md border-gray-300 px-4 py-3 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                                     placeholder="Message"
-                                // defaultValue={''}
                                 />
                             </div>
                             <div>

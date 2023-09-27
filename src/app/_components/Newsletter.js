@@ -12,7 +12,7 @@ export default function Newsletter() {
 
         return (
             <span>
-                &copy; {currentYear} {companyName}. All rights reserved.
+                A product of {companyName}, &copy; {currentYear} {companyName}. All rights reserved.
             </span>
         );
     };
@@ -101,7 +101,7 @@ export default function Newsletter() {
                 />
             </div>
             <div className="mt-6 pt-3 border-t border-gray-200">
-                <p className="text-base text-gray-400 xl:text-center">{copy()}</p>
+                <p className="text-base flex justify-center text-gray-400 xl:text-center">{copy()}</p>
             </div>
         </div>
     )
