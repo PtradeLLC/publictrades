@@ -2,7 +2,7 @@ import React from 'react';
 import ProjectList from '../_components/ProjectList';
 import Image from 'next/image';
 import { AspectRatio } from "@radix-ui/themes";
-import { Link1Icon, ValueNoneIcon } from "@radix-ui/react-icons";
+import { Link1Icon, ValueNoneIcon, RocketIcon } from "@radix-ui/react-icons";
 import { Card, Flex, Inset, Box, Text } from '@radix-ui/themes';
 
 const Security = () => {
@@ -58,6 +58,7 @@ const Security = () => {
                                             <p className="text-xl flex items-center font-semibold text-gray-900">
                                                 {list.title} <span className='px-3'><Link1Icon /></span>
                                             </p>
+                                            <span className='text-sm flex'>{list.author.status}<RocketIcon /></span>
                                             <p className="mt-3 text-base text-gray-500">
                                                 {list.preview}
                                             </p>
@@ -65,7 +66,6 @@ const Security = () => {
                                         <p className="mt-3 flex items-center text-base text-gray-500">
                                             <Image src={list.author.imageUrl} width={20} height={20} /> <span className='px-3'>{list.author.name}</span>
                                         </p>
-                                        <p>{list.author.status}</p>
                                     </div>
                                 </div>
                             </div>

@@ -58,6 +58,7 @@ const Govt = () => {
                                             <p className="text-xl flex items-center font-semibold text-gray-900">
                                                 {list.title} <span className='px-3'><Link1Icon /></span>
                                             </p>
+                                            <span className='text-sm flex'>{list.author.status}<RocketIcon /></span>
                                             <p className="mt-3 text-base text-gray-500">
                                                 {list.preview}
                                             </p>
