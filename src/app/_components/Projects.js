@@ -59,7 +59,7 @@ export default function Projects() {
         <div className="mt-4 bg-white">
             <div className="relative overflow-hidden">
                 <main>
-                    <div id="products" className="relative bg-white py-16 sm:py-24 lg:py-32">
+                    <div id="products" className="relative bg-white py-8 sm:py-16 lg:py-18">
                         <div className="mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
                             <h2 className="text-lg font-semibold text-slate-600">
                                 Empowering industries with the software of tomorrow.
