@@ -89,7 +89,7 @@ const Govt = () => {
                                         PublicTrades
                                     </Text>
                                     <Text size="5">
-                                        There are currently no products in this category. Please check back later.
+                                        There are currently no products in this category yet. Please check back later.
                                     </Text>
                                 </Box>
                             </Flex>
