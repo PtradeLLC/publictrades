@@ -15,6 +15,7 @@ const ProjectList = [
             imageUrl:
                 "/images/imagefor.png",
             href: "#",
+            status: "Launched"
         },
         readingLength: "6 min",
     },
@@ -34,6 +35,7 @@ const ProjectList = [
             imageUrl:
                 "/images/imagefor.png",
             href: "#",
+            status: "",
         },
         readingLength: "1 min",
     },
@@ -53,6 +55,7 @@ const ProjectList = [
             imageUrl:
                 "/images/imagefor.png",
             href: "#",
+            status: "",
         },
         readingLength: "1 min",
     },

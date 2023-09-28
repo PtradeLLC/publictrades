@@ -65,6 +65,7 @@ const Security = () => {
                                         <p className="mt-3 flex items-center text-base text-gray-500">
                                             <Image src={list.author.imageUrl} width={20} height={20} /> <span className='px-3'>{list.author.name}</span>
                                         </p>
+                                        <p>{list.author.status}</p>
                                     </div>
                                 </div>
                             </div>
