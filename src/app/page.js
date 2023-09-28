@@ -48,7 +48,7 @@ export default function Home() {
                     wished someone had it built already - We do too.
                   </p>
                   <p className="mt-8 text-base font-semibold text-slate-500 sm:mt-10">
-                    Used by
+                    Our products are used by
                   </p>
                   <div className="mt-5 w-full sm:mx-auto sm:max-w-lg lg:ml-0">
                     <div className="flex flex-wrap items-start justify-between">
