@@ -1,4 +1,4 @@
-import ProjectList from '../_components/ProjectList';
+import ProjectList from '../../components/ProjectList';
 import Image from 'next/image';
 import { AspectRatio } from "@radix-ui/themes";
 import { Link1Icon, RocketIcon } from "@radix-ui/react-icons";

@@ -2,8 +2,11 @@
 import { Fragment } from "react";
 import Image from 'next/image';
 import Link from 'next/link';
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { XMarkIcon } from "@heroicons/react/24/outline";
 import { Popover, Transition } from "@headlessui/react";
+import { useRouter } from "next/navigation";
+import useAuth from "../context/useAuth";
+import appwriteService from "../appwrite/config";
 
 const navigation = [
     { name: "Products", href: "/#products" },
@@ -12,6 +15,17 @@ const navigation = [
 ];
 
 const Navbar = () => {
+    const { authStatus, setAuthStatus } = useAuth();
+
+    const handleLogout = async () => {
+        try {
+            await appwriteService.logout();
+            setAuthStatus(false);
+        } catch (error) {
+            console.error('Error logging out:', error);
+        }
+    }
+
     return (
         <div className="h-10 fixed z-20 bg-white w-full flex items-center">
             <Popover>
@@ -21,7 +35,7 @@ const Navbar = () => {
                 >
                     <div className="flex flex-1 items-center">
                         <div className="flex w-full items-center justify-between md:w-auto">
-                            <Link href="/">
+                            <Link href={authStatus ? "/dashboard" : "/"}>
                                 <span className="sr-only">PublicTrades</span>
                                 <Image
                                     className="h-8 w-[116px] rounded sm:h-6"
@@ -31,25 +45,41 @@ const Navbar = () => {
                                     alt="logo"
                                 />
                             </Link>
-                            {/* <div className="-mr-2 flex items-center md:hidden">
-                                <Popover.Button className="focus-ring-inset relative inline-flex items-center justify-between rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-white">
-                                    <span className="absolute -inset-0.5" />
-                                    <span className="sr-only">Open main menu</span>
-                                    <Bars3Icon className="h-6 w-6" aria-hidden="true" />
-                                </Popover.Button>
-                            </div> */}
                         </div>
-                        <div className="hidden space-x-10 md:ml-10 md:flex">
+                        <div className="hidden space-x-10 md:ml-10 md:flex justify-end">
                             {navigation.map((item) => (
-                                <a
+                                <Link
                                     key={item.name}
                                     href={item.href}
                                     className="font-medium text-black hover:text-gray-600"
                                 >
                                     {item.name}
-                                </a>
+                                </Link>
                             ))}
+                            {authStatus ? (
+                                <button onClick={handleLogout}>Logout</button>
+                            ) : (
+                                <Link href="/signin">Login</Link>
+                            )}
                         </div>
+                        {/* <div className="hidden space-x-10 md:ml-10 md:flex justify-end">
+                            {navigation.map((item) => (
+                                <Link
+                                    key={item.name}
+                                    href={item.href}
+                                    className="font-medium text-black hover:text-gray-600"
+                                >
+                                    {item.name}
+                                </Link>
+                            ))}
+                            {authStatus ?
+                                <Link href={authStatus ? "/dashboard" : "/signin"}>
+                                    {authStatus ? "Logout" : "Log In"}
+                                </Link> : <Link href={"/signin"}>
+                                    {authStatus ? "Logout" : "Log In"}
+                                </Link>
+                            }
+                        </div> */}
                     </div>
                 </nav>
 
@@ -85,7 +115,23 @@ const Navbar = () => {
                                     </Popover.Button>
                                 </div>
                             </div>
-                            <div className="space-y-1 px-2 pb-3 pt-2">
+                            <div className="hidden space-x-10 md:ml-10 md:flex justify-end">
+                                {navigation.map((item) => (
+                                    <Link
+                                        key={item.name}
+                                        href={item.href}
+                                        className="font-medium text-black hover:text-gray-600"
+                                    >
+                                        {item.name}
+                                    </Link>
+                                ))}
+                                {authStatus ? (
+                                    <button onClick={handleLogout}>Logout</button>
+                                ) : (
+                                    <Link href="/signin">Login</Link>
+                                )}
+                            </div>
+                            {/* <div className="space-y-1 px-2 pb-3 pt-2">
                                 {navigation.map((item) => (
                                     <Link
                                         key={item.name}
@@ -95,7 +141,14 @@ const Navbar = () => {
                                         {item.name}
                                     </Link>
                                 ))}
-                            </div>
+                                {authStatus ?
+                                    <Link href={authStatus ? "/dashboard" : "/signin"}>
+                                        {authStatus ? "Logout" : "Log In"}
+                                    </Link> : <Link href={"/signin"}>
+                                        {authStatus ? "Logout" : "Log In"}
+                                    </Link>
+                                }
+                            </div> */}
                         </div>
                     </Popover.Panel>
                 </Transition>
