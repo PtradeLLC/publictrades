@@ -1,19 +1,19 @@
 const ProjectList = [
     {
         id: 1,
-        title: "ForgedMart",
-        href: "https://forgedmart.com",
+        title: "reBlug",
+        href: "https://reblug.com",
         date: "Mar 16, 2020",
         datetime: "2020-03-16",
         category: { name: "marketing" },
         imageUrl:
-            "/images/forgedmart.png",
+            "/images/reblugScreen.png",
         preview:
-            "Automation tools developed for marketing to help brands expand customer base and increase sales through social messaging and Artificial Intelligence.",
+            "Providing a unified ecosystem where brands, marketers and bloggers can connect.",
         author: {
-            name: "PublicTrades (ForgedMart)",
+            name: "PublicTrades (reBlug)",
             imageUrl:
-                "/images/imagefor.png",
+                "/images/reblugLogo.png",
             href: "#",
             status: "Launched"
         },
@@ -21,19 +21,19 @@ const ProjectList = [
     },
     {
         id: 2,
-        title: "ForgedMart",
-        href: "https://forgedmart.com",
+        title: "reBlug",
+        href: "https://reblug.com",
         date: "Mar 16, 2020",
         datetime: "2020-03-16",
         category: { name: "ai" },
         imageUrl:
-            "/images/forgedmart.png",
+            "/images/reblugScreen.png",
         preview:
-            "Automation tools developed for marketing to help brands expand customer base and increase sales through social messaging and Artificial Intelligence.",
+            "Providing a unified ecosystem where brands, marketers and bloggers can connect.",
         author: {
-            name: "PublicTrades (ForgedMart)",
+            name: "PublicTrades (reBlug)",
             imageUrl:
-                "/images/imagefor.png",
+                "/images/reblugLogo.png",
             href: "#",
             status: "Launched",
         },
@@ -41,19 +41,19 @@ const ProjectList = [
     },
     {
         id: 3,
-        title: "ForgedMart",
-        href: "https://forgedmart.com",
+        title: "reBlug",
+        href: "https://reblug.com",
         date: "Mar 16, 2020",
         datetime: "2020-03-16",
         category: { name: "consumer" },
         imageUrl:
-            "/images/forgedmart.png",
+            "/images/reblugScreen.png",
         preview:
-            "Automation tools developed for marketing to help brands expand customer base and increase sales through social messaging and Artificial Intelligence.",
+            "Providing a unified ecosystem where brands, marketers and bloggers can connect.",
         author: {
-            name: "PublicTrades (ForgedMart)",
+            name: "PublicTrades (reBlug)",
             imageUrl:
-                "/images/imagefor.png",
+                "/images/reblugLogo.png",
             href: "#",
             status: "Launched",
         },
