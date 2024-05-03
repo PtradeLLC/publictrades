@@ -24,5 +24,13 @@
     "postcss": "latest",
     "prisma": "^5.13.0",
     "tailwindcss": "latest"
+  },
+  "vercel": {
+    "build": {
+      "commands": [
+        "prisma generate",
+        "your_other_build_commands_here"
+      ]
+    }
   }
 }
