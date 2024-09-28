@@ -59,6 +59,46 @@ const ProjectList = [
         },
         readingLength: "1 min",
     },
+    {
+        id: 4,
+        title: "Plain Network",
+        href: "https://public-mobile-bllbr2emm-publictrades-projects.vercel.app/#",
+        date: "Sep 29, 2024",
+        datetime: "2020-03-16",
+        category: { name: "consumer" },
+        imageUrl:
+            "/images/plain.png",
+        preview:
+            "AI powered private mobile network for wireless products and services .",
+        author: {
+            name: "PublicTrades (plain)",
+            imageUrl:
+                "/images/reblugLogo.png",
+            href: "#",
+            status: "Launched",
+        },
+        readingLength: "1 min",
+    },
+    {
+        id: 5,
+        title: "Plain Network",
+        href: "https://public-mobile-bllbr2emm-publictrades-projects.vercel.app/#",
+        date: "Sep 29, 2024",
+        datetime: "2020-03-16",
+        category: { name: "ai" },
+        imageUrl:
+            "/images/plain.png",
+        preview:
+            "AI powered private mobile network for wireless products and services .",
+        author: {
+            name: "PublicTrades (plain)",
+            imageUrl:
+                "/images/reblugLogo.png",
+            href: "#",
+            status: "Launched",
+        },
+        readingLength: "1 min",
+    },
 ]
 
 export default ProjectList;
