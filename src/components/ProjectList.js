@@ -62,7 +62,7 @@ const ProjectList = [
     {
         id: 4,
         title: "Plain Network",
-        href: "https://public-mobile-bllbr2emm-publictrades-projects.vercel.app/#",
+        href: "https://public-mobile-publictrades-projects.vercel.app/",
         date: "Sep 29, 2024",
         datetime: "2020-03-16",
         category: { name: "consumer" },
@@ -82,7 +82,7 @@ const ProjectList = [
     {
         id: 5,
         title: "Plain Network",
-        href: "https://public-mobile-bllbr2emm-publictrades-projects.vercel.app/#",
+        href: "https://public-mobile-publictrades-projects.vercel.app/",
         date: "Sep 29, 2024",
         datetime: "2020-03-16",
         category: { name: "ai" },
