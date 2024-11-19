@@ -56,11 +56,11 @@ const Navbar = () => {
                                     {item.name}
                                 </Link>
                             ))}
-                            {authStatus ? (
+                            {/* {authStatus ? (
                                 <button onClick={handleLogout}>Logout</button>
                             ) : (
                                 <Link href="/signin">Login</Link>
-                            )}
+                            )} */}
                         </div>
                         {/* <div className="hidden space-x-10 md:ml-10 md:flex justify-end">
                             {navigation.map((item) => (
