@@ -98,6 +98,25 @@ const ProjectList = [
             status: "Launched",
         },
         readingLength: "1 min",
+    }, {
+        id: 6,
+        title: "Scorpy",
+        href: "https://scorpy-bay.vercel.app/",
+        date: "Dec 3, 2024",
+        datetime: "2020-03-16",
+        category: { name: "security" },
+        imageUrl:
+            "/images/scorp.png",
+        preview:
+            "AI-powered cloud security tool for real-time threat detection and prevention",
+        author: {
+            name: "PublicTrades (scorpy)",
+            imageUrl:
+                "/images/scorp.png",
+            href: "#",
+            status: "Launched",
+        },
+        readingLength: "1 min",
     },
 ]
 
