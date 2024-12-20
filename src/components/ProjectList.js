@@ -62,7 +62,7 @@ const ProjectList = [
     {
         id: 4,
         title: "Plain Network",
-        href: "https://public-mobile-publictrades-projects.vercel.app/",
+        href: "https://plain-mobile.vercel.app/",
         date: "Sep 29, 2024",
         datetime: "2020-03-16",
         category: { name: "consumer" },
@@ -82,7 +82,7 @@ const ProjectList = [
     {
         id: 5,
         title: "Plain Network",
-        href: "https://public-mobile-publictrades-projects.vercel.app/",
+        href: "https://plain-mobile.vercel.app/",
         date: "Sep 29, 2024",
         datetime: "2020-03-16",
         category: { name: "ai" },
@@ -113,6 +113,26 @@ const ProjectList = [
             name: "PublicTrades (scorpy)",
             imageUrl:
                 "/images/scorp.png",
+            href: "#",
+            status: "Launched",
+        },
+        readingLength: "1 min",
+    },
+    {
+        id: 7,
+        title: "Stream Wire",
+        href: "https://streaming-publictrades-projects.vercel.app",
+        date: "Dec 20, 2024",
+        datetime: "2020-03-16",
+        category: { name: "consumer" },
+        imageUrl:
+            "/images/stream.png",
+        preview:
+            "Helping creators to generate and stream AI-powered video content.",
+        author: {
+            name: "PublicTrades (scorpy)",
+            imageUrl:
+                "/images/stream.png",
             href: "#",
             status: "Launched",
         },
