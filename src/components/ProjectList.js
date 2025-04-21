@@ -35,7 +35,7 @@ const ProjectList = [
             imageUrl:
                 "/images/reblugLogo.png",
             href: "#",
-            status: "Launched"
+            status: "In development"
         },
         readingLength: "6 min",
     },
@@ -55,7 +55,7 @@ const ProjectList = [
             imageUrl:
                 "/images/reblugLogo.png",
             href: "#",
-            status: "Launched",
+            status: "In development",
         },
         readingLength: "1 min",
     },
@@ -75,7 +75,7 @@ const ProjectList = [
             imageUrl:
                 "/images/reblugLogo.png",
             href: "#",
-            status: "Launched",
+            status: "In development",
         },
         readingLength: "1 min",
     },
@@ -95,7 +95,7 @@ const ProjectList = [
             imageUrl:
                 "/images/reblugLogo.png",
             href: "#",
-            status: "Launched",
+            status: "In development",
         },
         readingLength: "1 min",
     },
@@ -115,7 +115,7 @@ const ProjectList = [
             imageUrl:
                 "/images/reblugLogo.png",
             href: "#",
-            status: "Launched",
+            status: "In development",
         },
         readingLength: "1 min",
     }, {
@@ -134,7 +134,7 @@ const ProjectList = [
             imageUrl:
                 "/images/scorp.png",
             href: "#",
-            status: "Launched",
+            status: "In development",
         },
         readingLength: "1 min",
     },
@@ -154,7 +154,7 @@ const ProjectList = [
             imageUrl:
                 "/images/stream.png",
             href: "#",
-            status: "Launched",
+            status: "In development",
         },
         readingLength: "1 min",
     },
