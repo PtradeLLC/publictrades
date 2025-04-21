@@ -1,6 +1,26 @@
 const ProjectList = [
     {
         id: 1,
+        title: "VoiseAI",
+        href: "https://skill-forge-ai-hub.vercel.app/",
+        date: "Mar 16, 2020",
+        datetime: "2020-03-16",
+        category: { name: "ai" },
+        imageUrl:
+            "/images/voiseai-image.png",
+        preview:
+            "Using artificial intelligence to teach how to apply AI in both your professional and personal life.",
+        author: {
+            name: "PublicTrades (VoiseAI)",
+            imageUrl:
+                "/images/voiseai-image.png",
+            href: "#",
+            status: "In development"
+        },
+        readingLength: "6 min",
+    },
+    {
+        id: 2,
         title: "reBlug",
         href: "https://reblug.com",
         date: "Mar 16, 2020",
@@ -20,7 +40,7 @@ const ProjectList = [
         readingLength: "6 min",
     },
     {
-        id: 2,
+        id: 3,
         title: "reBlug",
         href: "https://reblug.com",
         date: "Mar 16, 2020",
@@ -40,7 +60,7 @@ const ProjectList = [
         readingLength: "1 min",
     },
     {
-        id: 3,
+        id: 4,
         title: "reBlug",
         href: "https://reblug.com",
         date: "Mar 16, 2020",
@@ -60,7 +80,7 @@ const ProjectList = [
         readingLength: "1 min",
     },
     {
-        id: 4,
+        id: 5,
         title: "Plain Network",
         href: "https://plain-mobile.vercel.app/",
         date: "Sep 29, 2024",
@@ -80,7 +100,7 @@ const ProjectList = [
         readingLength: "1 min",
     },
     {
-        id: 5,
+        id: 6,
         title: "Plain Network",
         href: "https://plain-mobile.vercel.app/",
         date: "Sep 29, 2024",
@@ -99,7 +119,7 @@ const ProjectList = [
         },
         readingLength: "1 min",
     }, {
-        id: 6,
+        id: 7,
         title: "Scorpy",
         href: "https://scorpy-bay.vercel.app/",
         date: "Dec 3, 2024",
@@ -119,7 +139,7 @@ const ProjectList = [
         readingLength: "1 min",
     },
     {
-        id: 7,
+        id: 8,
         title: "Stream Wire",
         href: "https://streaming-publictrades-projects.vercel.app",
         date: "Dec 20, 2024",
