@@ -38,9 +38,9 @@ const Navbar = () => {
               <Link href={authStatus ? "/dashboard" : "/"}>
                 <span className="sr-only">PublicTrades</span>
                 <Image
-                  className="h-12 w-[250px] rounded sm:h-12"
+                  className="h-12 w-[199px] rounded sm:h-12"
                   width={100}
-                  height={70}
+                  height={50}
                   src="/images/logo.png"
                   alt="logo"
                 />
