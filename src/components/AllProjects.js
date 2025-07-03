@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { AspectRatio } from "@radix-ui/themes";
 
 export default function AllProjects({ projects, onBack }) {
   // Create a new array with only unique projects based on the project title
@@ -33,13 +34,28 @@ export default function AllProjects({ projects, onBack }) {
               className="flex flex-col items-start justify-between"
             >
               <div className="relative w-full">
-                <Image
+                <AspectRatio ratio={16 / 8}>
+                  <img
+                    id="marketing"
+                    className="h-48 w-full"
+                    src={project.imageUrl}
+                    alt={project.name}
+                    style={{
+                      objectFit: "cover",
+                      width: "100%",
+                      height: "100%",
+                      padding: "10px",
+                      borderRadius: "var(--radius-2)",
+                    }}
+                  />
+                </AspectRatio>
+                {/* <Image
                   src={project.imageUrl}
                   alt=""
                   width={800}
                   height={600}
                   className="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
-                />
+                /> */}
                 <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
               </div>
               <div className="max-w-xl">

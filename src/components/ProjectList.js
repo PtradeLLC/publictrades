@@ -6,12 +6,12 @@ const ProjectList = [
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
     category: { name: "ai" },
-    imageUrl: "/images/vbrants.png",
+    imageUrl: "/images/vibe-two.png",
     preview:
       "Helping Startup companies and Entrepreneurs bySolving their Vibe coding issues.",
     author: {
       name: "PublicTrades (VibeRants)",
-      imageUrl: "/images/vbrants.png",
+      imageUrl: "/images/vibe-two.png",
       href: "#",
       status: "In development",
     },
@@ -42,12 +42,12 @@ const ProjectList = [
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
     category: { name: "marketing" },
-    imageUrl: "/images/reblugScreen.png",
+    imageUrl: "/images/reblug.png",
     preview:
       "Providing a unified ecosystem where brands, marketers and bloggers can connect.",
     author: {
       name: "PublicTrades (reBlug)",
-      imageUrl: "/images/reblugLogo.png",
+      imageUrl: "/images/reblug.png",
       href: "#",
       status: "In development",
     },
@@ -60,12 +60,12 @@ const ProjectList = [
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
     category: { name: "ai" },
-    imageUrl: "/images/reblugScreen.png",
+    imageUrl: "/images/reblug.png",
     preview:
       "Providing a unified ecosystem where brands, marketers and bloggers can connect.",
     author: {
       name: "PublicTrades (reBlug)",
-      imageUrl: "/images/reblugLogo.png",
+      imageUrl: "/images/reblug.png",
       href: "#",
       status: "In development",
     },
@@ -78,12 +78,12 @@ const ProjectList = [
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
     category: { name: "consumer" },
-    imageUrl: "/images/reblugScreen.png",
+    imageUrl: "/images/reblug.png",
     preview:
       "Providing a unified ecosystem where brands, marketers and bloggers can connect.",
     author: {
       name: "PublicTrades (reBlug)",
-      imageUrl: "/images/reblugLogo.png",
+      imageUrl: "/images/reblug.png",
       href: "#",
       status: "In development",
     },
@@ -101,7 +101,7 @@ const ProjectList = [
       "AI powered private mobile network for wireless products and services .",
     author: {
       name: "PublicTrades (plain)",
-      imageUrl: "/images/reblugLogo.png",
+      imageUrl: "/images/reblug.png",
       href: "#",
       status: "In development",
     },
@@ -119,7 +119,7 @@ const ProjectList = [
       "AI powered private mobile network for wireless products and services .",
     author: {
       name: "PublicTrades (plain)",
-      imageUrl: "/images/reblugLogo.png",
+      imageUrl: "/images/reblug.png",
       href: "#",
       status: "In development",
     },
@@ -127,17 +127,17 @@ const ProjectList = [
   },
   {
     id: 8,
-    title: "Scorpy",
-    href: "https://scorpy-bay.vercel.app/",
+    title: "CyberPOV",
+    href: "https://cyber-eye-witness-defense.vercel.app/",
     date: "Dec 3, 2024",
     datetime: "2020-03-16",
     category: { name: "security" },
-    imageUrl: "/images/scorp.png",
+    imageUrl: "/images/cyberpov.png",
     preview:
       "AI-powered cloud security tool for real-time threat detection and prevention",
     author: {
-      name: "PublicTrades (scorpy)",
-      imageUrl: "/images/scorp.png",
+      name: "PublicTrades (CyberPOV)",
+      imageUrl: "/images/cyberpov.png",
       href: "#",
       status: "In development",
     },
@@ -150,12 +150,12 @@ const ProjectList = [
     date: "Dec 20, 2024",
     datetime: "2020-03-16",
     category: { name: "consumer" },
-    imageUrl: "/images/stream.png",
+    imageUrl: "/images/streamwire.png",
     preview:
       "Helping creators to generate and stream AI-powered video content.",
     author: {
       name: "PublicTrades (scorpy)",
-      imageUrl: "/images/stream.png",
+      imageUrl: "/images/streamwire.png",
       href: "#",
       status: "In development",
     },
