@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { account, ID } from "../../appwrite/appwrite";
 import appwriteService from "../../appwrite/config";
-import useAuth from "../../context/useAuth";
+import { useAuth } from "../../context/authContext";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 

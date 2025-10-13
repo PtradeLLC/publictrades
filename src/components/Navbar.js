@@ -5,7 +5,7 @@ import Link from "next/link";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import { Popover, Transition } from "@headlessui/react";
 import { useRouter } from "next/navigation";
-import useAuth from "../context/useAuth";
+import { useAuth } from "../context/authContext";
 import appwriteService from "../appwrite/config";
 
 const navigation = [

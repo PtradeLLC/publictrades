@@ -1,17 +1,21 @@
 import conf from "../conf/config";
 import { Client, Account, ID } from 'appwrite'
 
-const appwriteClient = new Client()
-
-appwriteClient.setEndpoint(conf.appwriteUrl).setProject(conf.appwriteProjectId);
-
-export const account = new Account(appwriteClient)
-
 export class AppwriteService {
+    client = new Client();
+    account;
+
+    constructor() {
+        this.client
+            .setEndpoint(conf.appwriteUrl)
+            .setProject(conf.appwriteProjectId);
+        this.account = new Account(this.client);
+    }
+
     //create a new record of user inside appwrite
     async createUserAccount({ email, password, name }) {
         try {
-            const userAccount = await account.create(ID.unique(), email, password, name)
+            const userAccount = await this.account.create(ID.unique(), email, password, name)
             if (userAccount) {
                 return this.login({ email, password })
             } else {
@@ -26,7 +30,7 @@ export class AppwriteService {
 
     async login({ email, password }) {
         try {
-            return await account.createEmailSession(email, password)
+            return await this.account.createEmailSession(email, password)
         } catch (error) {
             throw error
         }
@@ -43,7 +47,7 @@ export class AppwriteService {
 
     async getCurrentUser() {
         try {
-            return account.get()
+            return this.account.get()
         } catch (error) {
             console.log("getcurrentUser error: " + error)
 
@@ -54,7 +58,7 @@ export class AppwriteService {
 
     async logout() {
         try {
-            return await account.deleteSession("current")
+            return await this.account.deleteSession("current")
         } catch (error) {
             console.log("logout error: " + error)
         }

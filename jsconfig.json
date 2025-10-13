@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["/pages/*"]
-    }
+      "@/*": ["src/*"]
+    },
+    "ignoreDeprecations": "6.0"
   }
 }

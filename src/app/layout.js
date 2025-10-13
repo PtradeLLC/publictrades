@@ -1,8 +1,7 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
-import { Theme } from '@radix-ui/themes';
-import Navbar from '@/components/Navbar';
-import AuthProvider from '@/context/authContext';
+import { Providers } from '../context/providers';
+import Navbar from '../components/Navbar';
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -19,12 +18,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.variable} font-sans`}>
-        <AuthProvider>
-        <Theme>
-        <Navbar />
-        {children}
-        </Theme>
-        </AuthProvider>
+        <Providers>
+          <Navbar />
+          {children}
+        </Providers>
         </body>
     </html>
   )
