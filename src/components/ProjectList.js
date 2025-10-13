@@ -1,7 +1,7 @@
 const ProjectList = [
   {
     id: 1,
-    title: "VibeRants",
+    title: "Startup Marquee",
     href: "https://headache-helpers-unite.vercel.app/",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
@@ -10,10 +10,10 @@ const ProjectList = [
     preview:
       "Helping Startup companies and Entrepreneurs bySolving their Vibe coding issues.",
     author: {
-      name: "PublicTrades (VibeRants)",
+      name: "PublicTrades (Startup Marquee)",
       imageUrl: "/images/vibe-two.png",
       href: "#",
-      status: "In development",
+      status: "launched",
     },
     readingLength: "6 min",
   },
