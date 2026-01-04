@@ -38,9 +38,9 @@ const Navbar = () => {
               <Link href={authStatus ? "/dashboard" : "/"}>
                 <span className="sr-only">PublicTrades</span>
                 <Image
-                  className="h-12 w-[199px] rounded sm:h-12"
-                  width={100}
-                  height={50}
+                  className="h-8 w-[106px] rounded"
+                  width={106}
+                  height={32}
                   src="/images/logo.png"
                   alt="logo"
                 />
@@ -100,11 +100,11 @@ const Navbar = () => {
               <div className="flex items-end justify-between px-5 pt-4">
                 <div>
                   <Image
-                    className="h-8 w-[170px] rounded"
+                    className="h-8 w-[106px]"
                     src="/images/logo.png"
                     alt="logo"
-                    width={100}
-                    height={50}
+                    width={106}
+                    height={32}
                   />
                 </div>
                 <div className="-mr-2">

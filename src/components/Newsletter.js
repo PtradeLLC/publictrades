@@ -9,7 +9,7 @@ export default function Newsletter() {
 
   const copy = () => {
     const currentYear = new Date().getFullYear();
-    const companyName = "PublicTrades, LLC.";
+    const companyName = "Chris Bitoye Ventures";
 
     return (
       <span>
