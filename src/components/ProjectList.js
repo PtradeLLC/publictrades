@@ -10,7 +10,7 @@ const ProjectList = [
     preview:
       "Helping Startup companies and Entrepreneurs bySolving their Vibe coding issues.",
     author: {
-      name: "PublicTrades (Startup Marquee)",
+      name: "CBV (Startup Marquee)",
       imageUrl: "/images/vibe-two.png",
       href: "#",
       status: "launched",
@@ -28,7 +28,7 @@ const ProjectList = [
     preview:
       "Using artificial intelligence to teach how to apply AI in both your professional and personal life.",
     author: {
-      name: "PublicTrades (VoiseAI)",
+      name: "CBV (VoiseAI)",
       imageUrl: "/images/voiseai-image.png",
       href: "#",
       status: "In development",
@@ -46,7 +46,7 @@ const ProjectList = [
     preview:
       "Providing a unified ecosystem where brands, marketers and bloggers can connect.",
     author: {
-      name: "PublicTrades (reBlug)",
+      name: "CBV (reBlug)",
       imageUrl: "/images/reblug.png",
       href: "#",
       status: "In development",
@@ -64,7 +64,7 @@ const ProjectList = [
     preview:
       "Providing a unified ecosystem where brands, marketers and bloggers can connect.",
     author: {
-      name: "PublicTrades (reBlug)",
+      name: "CBV (reBlug)",
       imageUrl: "/images/reblug.png",
       href: "#",
       status: "In development",
@@ -82,7 +82,7 @@ const ProjectList = [
     preview:
       "Providing a unified ecosystem where brands, marketers and bloggers can connect.",
     author: {
-      name: "PublicTrades (reBlug)",
+      name: "CBV (reBlug)",
       imageUrl: "/images/reblug.png",
       href: "#",
       status: "In development",
@@ -100,7 +100,7 @@ const ProjectList = [
     preview:
       "AI powered private mobile network for wireless products and services .",
     author: {
-      name: "PublicTrades (plain)",
+      name: "CBV (plain)",
       imageUrl: "/images/reblug.png",
       href: "#",
       status: "In development",
@@ -118,7 +118,7 @@ const ProjectList = [
     preview:
       "AI powered private mobile network for wireless products and services .",
     author: {
-      name: "PublicTrades (plain)",
+      name: "CBV (plain)",
       imageUrl: "/images/reblug.png",
       href: "#",
       status: "In development",
@@ -136,7 +136,7 @@ const ProjectList = [
     preview:
       "AI-powered cloud security tool for real-time threat detection and prevention",
     author: {
-      name: "PublicTrades (CyberPOV)",
+      name: "CBV (CyberPOV)",
       imageUrl: "/images/cyberpov.png",
       href: "#",
       status: "In development",
@@ -145,7 +145,7 @@ const ProjectList = [
   },
   {
     id: 9,
-    title: "Stream Wire",
+    title: "StreamWyre",
     href: "https://streamwyre.com",
     date: "Dec 20, 2024",
     datetime: "2020-03-16",
@@ -154,10 +154,10 @@ const ProjectList = [
     preview:
       "Helping creators to generate and stream AI-powered video content.",
     author: {
-      name: "PublicTrades (scorpy)",
+      name: "CBV (streamwyre)",
       imageUrl: "/images/streamwire.png",
       href: "#",
-      status: "In development",
+      status: "Launched",
     },
     readingLength: "1 min",
   },
