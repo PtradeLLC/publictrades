@@ -1,18 +1,18 @@
-import { Inter } from 'next/font/google'
-import './globals.css'
-import { Providers } from '../context/providers';
-import Navbar from '../components/Navbar';
+import { Inter } from "next/font/google";
+import "./globals.css";
+import { Providers } from "../context/providers";
+import Navbar from "../components/Navbar";
 
-const inter = Inter({ 
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-inter',
- })
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+});
 
 export const metadata = {
-  title: 'Public-Trades',
-  description: 'A market-place for your digital products',
-}
+  title: "Chris Bitoye Ventures",
+  description: "A market-place for your digital products",
+};
 
 export default function RootLayout({ children }) {
   return (
@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
           <Navbar />
           {children}
         </Providers>
-        </body>
+      </body>
     </html>
-  )
+  );
 }

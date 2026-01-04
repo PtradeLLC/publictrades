@@ -146,7 +146,7 @@ const ProjectList = [
   {
     id: 9,
     title: "Stream Wire",
-    href: "https://streaming-publictrades-projects.vercel.app",
+    href: "https://streamwyre.com",
     date: "Dec 20, 2024",
     datetime: "2020-03-16",
     category: { name: "consumer" },
